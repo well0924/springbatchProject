@@ -10,4 +10,8 @@ spring:
   batch:
     jdbc:
       initialize-schema: always
+  main:
+    allow-bean-definition-overriding: true
+  jpa:
+    show-sql: true
 
